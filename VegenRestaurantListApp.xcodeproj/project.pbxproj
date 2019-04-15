@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0BBFABD822645EDB004ABB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFABD722645EDB004ABB7A /* AppDelegate.swift */; };
-		0BBFABDA22645EDB004ABB7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFABD922645EDB004ABB7A /* ViewController.swift */; };
 		0BBFABDD22645EDB004ABB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFABDB22645EDB004ABB7A /* Main.storyboard */; };
 		0BBFABDF22645EDD004ABB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFABDE22645EDD004ABB7A /* Assets.xcassets */; };
 		0BBFABE222645EDD004ABB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFABE022645EDD004ABB7A /* LaunchScreen.storyboard */; };
+		0BBFABEA22646088004ABB7A /* VeganRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFABE922646088004ABB7A /* VeganRestaurantTableViewController.swift */; };
+		0BBFABEC226460D2004ABB7A /* VeganRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFABEB226460D2004ABB7A /* VeganRestaurant.swift */; };
+		0BBFABEE22646B06004ABB7A /* VeganRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFABED22646B06004ABB7A /* VeganRestaurantViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BBFABD422645EDB004ABB7A /* VegenRestaurantListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegenRestaurantListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBFABD722645EDB004ABB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BBFABD922645EDB004ABB7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BBFABDC22645EDB004ABB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BBFABDE22645EDD004ABB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BBFABE122645EDD004ABB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BBFABE322645EDD004ABB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBFABE922646088004ABB7A /* VeganRestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganRestaurantTableViewController.swift; sourceTree = "<group>"; };
+		0BBFABEB226460D2004ABB7A /* VeganRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganRestaurant.swift; sourceTree = "<group>"; };
+		0BBFABED22646B06004ABB7A /* VeganRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganRestaurantViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0BBFABD722645EDB004ABB7A /* AppDelegate.swift */,
-				0BBFABD922645EDB004ABB7A /* ViewController.swift */,
 				0BBFABDB22645EDB004ABB7A /* Main.storyboard */,
 				0BBFABDE22645EDD004ABB7A /* Assets.xcassets */,
 				0BBFABE022645EDD004ABB7A /* LaunchScreen.storyboard */,
 				0BBFABE322645EDD004ABB7A /* Info.plist */,
+				0BBFABE922646088004ABB7A /* VeganRestaurantTableViewController.swift */,
+				0BBFABEB226460D2004ABB7A /* VeganRestaurant.swift */,
+				0BBFABED22646B06004ABB7A /* VeganRestaurantViewController.swift */,
 			);
 			path = VegenRestaurantListApp;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBFABDA22645EDB004ABB7A /* ViewController.swift in Sources */,
+				0BBFABEC226460D2004ABB7A /* VeganRestaurant.swift in Sources */,
+				0BBFABEA22646088004ABB7A /* VeganRestaurantTableViewController.swift in Sources */,
 				0BBFABD822645EDB004ABB7A /* AppDelegate.swift in Sources */,
+				0BBFABEE22646B06004ABB7A /* VeganRestaurantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
